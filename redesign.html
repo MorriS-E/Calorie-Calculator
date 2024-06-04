@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="redesign.css" />
+    <title>Calorie Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--enter new food and weight of food per x kcals-->
+      <div>
+        <input type="text" id="food-input" placeholder="Enter Food..." />
+      </div>
+      <div>
+        <input type="number" id="weight-input-top" />
+        <label for="">kcal per</label>
+        <input type="number" id="kcal-input" />
+        <label for="">g / ml</label>
+      </div>
+      <div>
+        <button id="add-btn">add</button>
+      </div>
+      <!--select food and enter weight-->
+      <div>
+        <select name="" id="food-select">
+          <option value="">food</option>
+        </select>
+      </div>
+      <div>
+        <input type="number" id="weight-input-bottom" />
+        <label for="">g / ml</label>
+      </div>
+      <div>
+        <button id="calc-btn">calculate</button>
+      </div>
+      <!--outputs the results-->
+      <div>
+        <label for="" id="result"></label>
+      </div>
+    </div>
+    <script src="redesign.js"></script>
+  </body>
+</html>
